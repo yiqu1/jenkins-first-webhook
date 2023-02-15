@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    stage {
+    stages {
         stage("build"){
 	    steps {
 		sh "echo Integratng Jenkins pipeline with github webjook using jenkinsfile"
